@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>88571DA0-504E-44EC-9004-D2EEA56E10F2</string>
+	<key>IDESourceControlProjectName</key>
+	<string>MeetUP</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>8D277C41-21A0-4985-AFED-2B2976F3B8D8</key>
+		<string>https://github.com/andywcmu/MeetUP.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>MeetUP/MeetUP.xcodeproj/project.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>8D277C41-21A0-4985-AFED-2B2976F3B8D8</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/andywcmu/MeetUP.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>110</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>8D277C41-21A0-4985-AFED-2B2976F3B8D8</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>8D277C41-21A0-4985-AFED-2B2976F3B8D8</string>
+			<key>IDESourceControlWCCName</key>
+			<string>MeetUP</string>
+		</dict>
+	</array>
+</dict>
+</plist>
