@@ -1,8 +1,8 @@
 from django.db import models
 
 class Location(models.Model):
-	latitude = models.DecimalField()
-	longtitude = models.DecimalField()
+	latitude = models.DecimalField(max_digits=10, decimal_places=6)
+	longtitude = models.DecimalField(max_digits=10, decimal_places=6)
 
 class Person(models.Model):
 	first_name = models.CharField(max_length=64)
@@ -12,6 +12,8 @@ class Person(models.Model):
 	sign_up_time = models.DateTimeField()
 	location = models.ForeignKey(Location)
 	location_last_updated = models.DateTimeField()
+	def __unicode__(self):
+		return self.first_name + ' ' + self.last_name
 
 class Event(models.Model):
 	name = models.CharField(max_length=128)

@@ -6,15 +6,20 @@ from django.utils import timezone
 from datetime import datetime
 import pytz
 
+# Create some locations
+# Andy's House
+l1 = Location(latitude=40.451891, longtitude=-79.950388)
+l1.save()
+
 # Create some users
 u1 = Person(first_name='Andy',
             last_name='Wang',
             email='andywcmu@gmail.com',
             phone='(412)478-2331',
             sign_up_time=timezone.now(),
-            location=Location(latitude=40.451891, longtitude=-79.950388),
+            location=l1,
             location_last_updated=timezone.now())
-u.save()
+u1.save()
 
 # Create some events
 # e1 = Event(name='MeetUp meeting',
