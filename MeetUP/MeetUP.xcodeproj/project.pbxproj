@@ -36,6 +36,11 @@
 		044F88E518D19A8D009678DB /* MUPMapViewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 044F88E418D19A8D009678DB /* MUPMapViewViewController.m */; };
 		045F51AA18D1A2C100572B5B /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 045F51A918D1A2C100572B5B /* GoogleMaps.framework */; };
 		045F51AC18D1A2FC00572B5B /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 045F51AB18D1A2FC00572B5B /* GoogleMaps.bundle */; };
+<<<<<<< HEAD
+		0506010618E0E10E000BD20C /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0506010518E0E10E000BD20C /* GoogleMaps.framework */; };
+=======
+		0F5E439C18E0E394001180AE /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0F5E439B18E0E394001180AE /* GoogleMaps.framework */; };
+>>>>>>> FETCH_HEAD
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -83,6 +88,11 @@
 		044F88E418D19A8D009678DB /* MUPMapViewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MUPMapViewViewController.m; sourceTree = "<group>"; };
 		045F51A918D1A2C100572B5B /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
 		045F51AB18D1A2FC00572B5B /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Versions/A/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+<<<<<<< HEAD
+		0506010518E0E10E000BD20C /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+=======
+		0F5E439B18E0E394001180AE /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+>>>>>>> FETCH_HEAD
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +106,11 @@
 				044F88DA18D1981C009678DB /* libz.dylib in Frameworks */,
 				044F88D818D1980E009678DB /* libicucore.dylib in Frameworks */,
 				044F88D618D19800009678DB /* libc++.dylib in Frameworks */,
+<<<<<<< HEAD
+				0506010618E0E10E000BD20C /* GoogleMaps.framework in Frameworks */,
+=======
+				0F5E439C18E0E394001180AE /* GoogleMaps.framework in Frameworks */,
+>>>>>>> FETCH_HEAD
 				044F88D418D197F4009678DB /* ImageIO.framework in Frameworks */,
 				044F88D218D197DC009678DB /* GLKit.framework in Frameworks */,
 				044F88D018D197D4009678DB /* CoreText.framework in Frameworks */,
@@ -145,6 +160,11 @@
 		044F889718D19572009678DB /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+<<<<<<< HEAD
+				0506010518E0E10E000BD20C /* GoogleMaps.framework */,
+=======
+				0F5E439B18E0E394001180AE /* GoogleMaps.framework */,
+>>>>>>> FETCH_HEAD
 				045F51AB18D1A2FC00572B5B /* GoogleMaps.bundle */,
 				045F51A918D1A2C100572B5B /* GoogleMaps.framework */,
 				044F88DF18D19837009678DB /* SystemConfiguration.framework */,
@@ -437,6 +457,7 @@
 					"$(inherited)",
 					"/Users/mac/Downloads/GoogleMaps-iOS-1.7.2",
 					/Users/mac/Documents/Projects/MeetUP/MeetUP,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeetUP/MeetUP-Prefix.pch";
@@ -455,6 +476,7 @@
 					"$(inherited)",
 					"/Users/mac/Downloads/GoogleMaps-iOS-1.7.2",
 					/Users/mac/Documents/Projects/MeetUP/MeetUP,
+					"$(PROJECT_DIR)",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MeetUP/MeetUP-Prefix.pch";
