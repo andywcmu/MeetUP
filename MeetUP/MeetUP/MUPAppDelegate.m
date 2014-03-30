@@ -7,17 +7,19 @@
 //
 
 #import "MUPAppDelegate.h"
+#import "MUPHttpRequest.h"
 
 @implementation MUPAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [GMSServices provideAPIKey:@"AIzaSyBck1nz0Wvu7Vw-eFPm3R2cC_qolwB7ufQ"];
-//    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
-//    // Override point for customization after application launch.
-//    self.window.backgroundColor = [UIColor whiteColor];
-//    [self.window makeKeyAndVisible];
-    return YES;
+  [GMSServices provideAPIKey:@"AIzaSyBck1nz0Wvu7Vw-eFPm3R2cC_qolwB7ufQ"];
+  NSLog(@"hello!");
+  MUPHttpRequest * httpHandler = [[MUPHttpRequest alloc] init];
+  if (httpHandler) {
+    [httpHandler getPersonData: 1];
+  }
+  return YES;
 }
 
 - (void)applicationWillResignActive:(UIApplication *)application
